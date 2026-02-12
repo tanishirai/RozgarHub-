@@ -21,7 +21,7 @@ const ActiveJobsScreen = ({ navigation }) => {
 
         <TouchableOpacity 
           style={styles.activeJobCard}
-          onPress={() => navigation.navigate('JobDetail')}
+          // onPress={() => navigation.navigate('JobDetail')}
         >
           <View style={styles.activeJobHeader}>
             <Text style={styles.activeJobTitle}>Painter</Text>

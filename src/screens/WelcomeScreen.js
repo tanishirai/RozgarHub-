@@ -10,7 +10,7 @@ const WelcomeScreen = ({ navigation }) => {
         <View style={styles.header}>
           <View style={styles.logoContainer}>
             <Text style={styles.logoIcon}>🔨</Text>
-            <Text style={styles.logoText}>KaamSathi</Text>
+            <Text style={styles.logoText}>RozgarHub</Text>
           </View>
           <TouchableOpacity style={styles.languageBtn}>
             <Text style={styles.languageText}>🌐 ▼</Text>
@@ -22,7 +22,7 @@ const WelcomeScreen = ({ navigation }) => {
           <Text style={styles.locationIcon}>📍</Text>
           
           <View style={styles.infoBox}>
-            <Text style={styles.infoLabel}>Aadhaar</Text>
+            <Text style={styles.infoLabel}>Mobile Number</Text>
             <Text style={styles.infoValue}>⭐12, 11,658+</Text>
           </View>
         </View>
@@ -30,12 +30,12 @@ const WelcomeScreen = ({ navigation }) => {
         <View style={styles.bottomSection}>
           <TouchableOpacity 
             style={styles.primaryButton}
-            onPress={() => navigation.navigate('GetStarted')}
+            onPress={() => navigation.navigate('Login')}
           >
             <Text style={styles.primaryButtonText}>Send OTP</Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => navigation.navigate('GetStarted')}>
-            <Text style={styles.linkText}>Why Aadhaar? 🛈</Text>
+            <Text style={styles.linkText}> Why Mobile Number?</Text>
           </TouchableOpacity>
         </View>
       </View>

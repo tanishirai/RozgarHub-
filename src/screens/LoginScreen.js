@@ -34,7 +34,7 @@ const LoginScreen = ({ navigation }) => {
 
         <TouchableOpacity 
           style={styles.primaryButton}
-          onPress={() => navigation.navigate('Home')}
+          onPress={() => navigation.navigate('GetStarted')}
         >
           <Text style={styles.primaryButtonText}>Verify OTP</Text>
         </TouchableOpacity>

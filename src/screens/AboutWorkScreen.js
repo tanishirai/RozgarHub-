@@ -65,7 +65,7 @@ const AboutWorkScreen = ({ navigation }) => {
           </TouchableOpacity>
           <TouchableOpacity 
             style={styles.finishButton}
-            onPress={() => navigation.navigate('Login')}
+            onPress={() => navigation.navigate('Home')}
           >
             <Text style={styles.finishButtonText}>Finish</Text>
           </TouchableOpacity>

@@ -1,4 +1,3 @@
-// src/components/WorkerCard.js - Worker Card (Optional)
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 

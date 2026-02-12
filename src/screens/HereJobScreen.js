@@ -36,7 +36,7 @@ const HereJobScreen = ({ navigation }) => {
             <Text style={styles.jobTiming}>🕐 Full Day</Text>
             <TouchableOpacity 
               style={styles.acceptButtonSmall}
-              onPress={() => navigation.navigate('ActiveJobs')}
+              onPress={() => navigation.navigate('JobDetail')}
             >
               <Text style={styles.acceptButtonText}>Accept</Text>
             </TouchableOpacity>
