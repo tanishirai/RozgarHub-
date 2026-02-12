@@ -34,7 +34,8 @@ const WelcomeScreen = ({ navigation }) => {
           >
             <Text style={styles.primaryButtonText}>Send OTP</Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => navigation.navigate('GetStarted')}>
+          <TouchableOpacity >
+          {/* // onPress={() => navigation.navigate('GetStarted')} */}
             <Text style={styles.linkText}> Why Mobile Number?</Text>
           </TouchableOpacity>
         </View>
