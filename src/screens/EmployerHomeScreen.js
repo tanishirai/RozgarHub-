@@ -111,8 +111,7 @@ const EmployerHomeScreen = ({ navigation }) => {
   const displayName = profile.name || 'Employer';
 
   const handlePostJob = () => {
-    // Navigate to PostJob when that screen exists, or show placeholder
-    Alert.alert('Post a Job', 'PostJobScreen coming soon!', [{ text: 'OK' }]);
+    navigation.navigate('PostJob');
   };
 
   const handleViewApplications = (job) => {
